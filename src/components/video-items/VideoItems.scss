@@ -1,0 +1,11 @@
+.video{
+    position: relative;
+    padding: 5px;
+    border-radius: 25px;
+    object-fit: cover;
+    &__row{
+        margin: 25px;
+        border: 3px solid #ccc; 
+        border-radius: 25px;
+    }
+}

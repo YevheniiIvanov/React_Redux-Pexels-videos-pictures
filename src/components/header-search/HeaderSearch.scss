@@ -1,0 +1,48 @@
+.header{
+    background-image: url('../../resources/img/pexels-rohit-gangwar-904271.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 50vh;
+    position: relative;
+    &__content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 650px;
+        width: 100%;
+        margin: 0 auto;
+        color: #ffff;
+    }
+    &__h1{
+        display: block;
+        font-size: 36px;
+        line-height: 48px;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    &__search{
+        display: flex;
+        background: rgba(255,255,255,0.95);
+        border-radius: 6px;
+        padding: 10px;
+        input{
+            border: none;
+            outline: none;
+            width: 100%;
+        }
+    }
+    &__button{
+        border: none;
+        background: #fff;
+        width: 50px;
+        height: auto;
+        img{
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
